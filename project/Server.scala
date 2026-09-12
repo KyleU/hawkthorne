@@ -47,8 +47,7 @@ object Server {
     maintainer := "Hawkthorne User <admin@hawkthorne.com>",
     description := Shared.projectName,
 
-    resolvers += Resolver.jcenterRepo,
-    resolvers += Resolver.bintrayRepo("stanch", "maven"),
+    resolvers += "Atlassian Public" at "https://packages.atlassian.com/maven-public/",
 
     resolvers += "Sonatype OSS Snapshots" at "https://oss.sonatype.org/content/repositories/snapshots/",
     libraryDependencies ++= dependencies,

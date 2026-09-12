@@ -117,7 +117,7 @@ object Dependencies {
     val guava = "com.google.guava" % "guava" % "23.0"
     val scalaGuice = "net.codingwell" %% "scala-guice" % "4.2.1"
     val scopts = "com.github.scopt" %% "scopt" % "3.7.0"
-    val reftree = "org.stanch" %% "reftree" % "1.2.0"
+    val reftree = "com.kyleu" %% "reftree" % "1.4.1"
   }
 
   object Testing {
